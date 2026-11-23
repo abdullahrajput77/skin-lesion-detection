@@ -100,3 +100,4 @@ if uploaded_file is not None:
             st.success(f"**Prediction: {predicted_class}**")
             
         st.metric(label="Confidence Score", value=f"{confidence_percentage:.2f}%")
+
